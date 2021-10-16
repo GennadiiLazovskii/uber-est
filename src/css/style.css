@@ -19,10 +19,46 @@ header {
   font-weight: 300;
   font-size: 15px;
   color: #FFFFFF;
-  text-decoration: none;
 }
 
 .menu .menu_item {
   border-right: 2px dotted black;
   padding-right: 44px;
+}
+
+.subheader {
+  height: 84px;
+  background-color: rgba(0,0,0 .6);
+}
+
+.subheader .subheader_logo {
+  max-width: 100%;
+  margin-top: 16px;
+}
+
+.subheader .subheader_official {
+  margin-top: 6px;
+  opacity: 0.5;
+  color: #FFFFFF;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.subheader .subheader_call {
+ color: #FFFFFF;
+ font-size: 12px;
+ font-weight: 300;
+ margin-top: 23px;
+ text-align: right;
+}
+
+.subheader .subheader_phone {
+  display: block;
+  margin-top: 8px;
+  color: #FFFFFF;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: right;
+  line-height: 12px;
 }
