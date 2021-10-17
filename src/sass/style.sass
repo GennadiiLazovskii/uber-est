@@ -1,3 +1,6 @@
+$main-color-blue: #1ca8c3
+$main-color-pink: #ff5656
+
 *
   font-family: 'Roboto', sans-serif
 
@@ -131,6 +134,7 @@ nav
   padding: 71px 0 65px 0
 
 .label
+  position: relative
   display: block
   margin: 11px auto 0 auto
   font-size: 13px
@@ -141,8 +145,13 @@ nav
   height: 24px
   background-color: #000000
   text-align: center
+  z-index: 2
+  &_white
+    background-color: #fff
+    color: black
 
 .title
+  position: relative
   font-size: 38px
   line-height: 48px
   font-weight: 700
@@ -150,13 +159,21 @@ nav
   color: #222222
   text-align: center
   margin-top: 44px
+  z-index: 2
+  &_white
+    color: white
+
 
 .subtitle
+  position: relative
   margin-top: 19px
   font-weight: 400
   font-size: 17px
   text-align: center
   color: #222
+  z-index: 2
+  &_white
+    color: white
 
 .reasons_work
   .reasons_block
@@ -182,7 +199,7 @@ nav
   .reasons_subtitle
     font-size: 17px
     font-weight: 400
-    color: #1eacc7
+    color: $main-color-blue
 
   .reasons_text
     margin-top: 5px
@@ -238,5 +255,31 @@ nav
       border-radius: 100%
       cursor: pointer
 
-      
+.choice
+  position: relative
+  min-height: 895px
+  padding: 57px 0 138px 0
+  background: url('../icons/four main/bg4.jpg') center (center/cover) no-repeat
+  &_img
+    position: relative
+    display: block
+    display: flex
+    justify-content: center
+    align-content: center
+    margin: 56px auto 0 auto
+    z-index: 2
+  .black_bg
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 499px
+    background-color: #070716
+    z-index: 1
+  &_descr
+    font-size: 17px
+    font-weight: 300
+    line-height: 24px
+    text-align: center
+    color: #222
 
