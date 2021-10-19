@@ -9,10 +9,13 @@ nav
   background-color: #212121
   z-index: 5
 
+.hamburger
+  display: none
+
 .menu
   display: flex
   justify-content: space-between
-  padding: 10px 70px
+  padding: 13px 70px
   margin: 0
   list-style-type: none
 
@@ -25,6 +28,8 @@ nav
   &_item
     border-right: 2px dotted black
     padding-right: 44px
+    &:last-child
+      border-right: none
 
 .subheader
   top: 50px
@@ -77,6 +82,7 @@ nav
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21)
     color: #ffffff
     +btn_hover
+
 
 .promo
   min-height: 800px
