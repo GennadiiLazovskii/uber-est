@@ -13,6 +13,32 @@
       margin-right: 0
       .reasons_descr
         width: 300px
+  .mobile
+    &_item
+      width: 300px
+      &_subtitle
+        font-size: 22px
+  .choice
+    padding: 55px 0
+    min-height: 840px
+  .require
+    br
+      display: none
+  .footer
+    &_wrapper > div
+      width: 50%
+      &:ntn-child(1)
+        width: 25%
+      &:ntn-child(3)
+        width: 25%
+        display: flex
+        justify-content: flex-end
+    &_mobile
+      display: flex
+      a
+        margin: 0 3px
+        img
+          width: 100%
 @media (max-width: 991px)
   .menu
     &_item
@@ -43,6 +69,28 @@
       .reasons_descr
         margin-top: 21px
         width: 300px
+  .title
+    margin-top: 34px
+    font-size: 34px
+  .choice
+    min-height: 800px
+    img
+      width: 100%
+  .world
+    min-height: 650px
+  .footer
+    &_wrapper
+      flex-wrap: wrap
+    &_wrapper > div
+      width: 100%
+      display: flex
+      justify-content: center
+      margin-bottom: 20px
+      &:ntn-child(1)
+        width: 100%
+      &:ntn-child(3)
+        width: 100%
+        justify-content: center
 @media (max-width: 767px)
   .title
     margin-top: 25px
@@ -118,6 +166,23 @@
       line-height: 45px
     &_subheader
       font-size: 31px
+  .reasons_work
+    padding: 40px 0
+  .reasons_descr
+    width: 350px
+  .reasons_subtitle
+    text-align: center
+  .reasons_text
+    text-align: center
+    margin-top: 10px
+  .mobile
+    padding: 40px 0
+  .choice
+    padding: 40px 0
+  .require
+    padding: 40px
+  .world
+    min-height: 450px
 @media (max-width: 575px)
   nav
     height: 30px
@@ -176,6 +241,16 @@
     font-size: 15px
     margin-top: 15px
     line-height: 16px
-
-
-
+  .mobile
+    padding: 20px 0 40px 0
+    .row
+      margin-top: 27px
+    &_item
+      height: 254px
+      padding: 81px 40px 0 40px
+      &_subtitle
+        font-size: 18px
+        line-height: 1.72
+        &_plus
+          bottom: 28px
+          
